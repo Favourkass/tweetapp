@@ -20,6 +20,6 @@ from tweet.views import tweet_create_view
 
 urlpatterns = [
     path( '', include('tweet.urls')),
-    path('tweet-create', tweet_create_view),
+    path('create-tweet', tweet_create_view),
     path('admin/', admin.site.urls),
 ]
